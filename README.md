@@ -39,6 +39,7 @@ confidence scores, along with a supportive suggestion.
 
 ## Project Workflow
 
+```text
 Speech Input
 ↓
 Audio Preprocessing
@@ -54,6 +55,7 @@ Ensemble Voting
 Final Anxiety Level
 ↓
 Supportive Suggestions
+```
 
 ## Machine Learning Models
 
@@ -77,6 +79,7 @@ It should be downloaded separately and placed in the `dataset/` folder.
 
 ## Project Structure
 
+```text
 models/
 outputs/
 src/
@@ -87,13 +90,16 @@ count_features.py
 requirements.txt
 .gitignore
 README.md
+```
 
 ## How to Run
 
+```bash
 git clone https://github.com/SrikantaMurthy04/AI-Based-Speech-Analysis-System-for-Social-Anxiety-Detection-and-Assistance.git
 cd AI-Based-Speech-Analysis-System-for-Social-Anxiety-Detection-and-Assistance
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ## Results
 
